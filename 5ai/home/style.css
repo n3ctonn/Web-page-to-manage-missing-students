@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+.work-area {
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.header {
+    max-width: 100%;
+    width: 100%;
+    max-height: 10%;
+    height: 10vh;
+    margin: 17vh 17vw;
+    display: flex;
+}
+
+.title {
+    font-size: 2vh;
+    padding-right: 20vw;
+}
+
+.navBar {
+    position: relative;
+    top: 2vh;
+    left: 5vw;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+ .logOut{
+    color: red;
+}
+
+
+
+.table-div {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table{
+    width: 50%;
+    border-collapse:collapse;
+}
+
+
+.table-body td{
+    padding: 5px;
+}
+
+
+.table-body .x{
+    border: 0px solid #ccc;
+}
+
+.table thead tr:last-of-type{
+    border-bottom: 2px solid #6000FD;
+    
+}
+
+.table tfoot tr:last-of-type{
+    border-bottom: 2px solid #6000FD;
+}
+
+
+.btn{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: crimson;
+    transition: 0.5s ease;
+    padding: 1px 1px;
+}
+
+.btn:hover{
+    background-color: crimson;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+

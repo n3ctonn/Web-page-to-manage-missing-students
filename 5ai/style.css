@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+}
+
+.work-area {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    max-width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    margin: 5vh auto;
+    margin-top: 5vh;
+    max-width: 800px;
+    width: 90%;
+}
+
+.login-area {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    height: 50vh;
+    margin: 0 auto;
+    margin-right: 35vw;
+    max-width: 500px;
+    width: 90%;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-header {
+    margin: 2vh;
+}
+
+.login-form{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    text-indent: 20px;
+    height: 5vh;
+    width: 80%;
+}
+.login-form::placeholder {
+    padding: 0 4px;
+  }
+
+.login-name {
+    margin-bottom: 3vh;
+}
+
+.login-password {
+    margin-top: 7vh;
+}
+
+.buttons{
+    margin-top: 3vh;
+}
+
+.button-login{
+    background-color: #0097FF;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 5vh;
+    left: -10vw;
+    margin-left: 7vw;
+    margin-top: 5vh;
+    position: relative;
+    transition: box-shadow 0.3s;
+    width: 20%;
+    cursor: pointer;
+}
+
+.button-login:hover {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.button-register{
+    background-color: #00E92C;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 5vh;
+    left: 10vw;
+    bottom: 13.7vh;
+    margin-right: 7vw;
+    margin-top: 5vh;
+    position: relative;
+    transition: box-shadow 0.3s;
+    width: 20%;
+    cursor: pointer;
+}
+
+.button-register:hover {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.or{
+    position: relative;
+    bottom: 4vh;
+    text-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-submit{
+    margin-top: 3vh;
+}
+
+
+
+.register-area {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    height: 50vh;
+    margin: 0 auto;
+    margin-right: 35vw;
+    max-width: 500px;
+    width: 90%;
+}
+
+.regster-head{
+    margin-top: 2vh;
+}
+
+.registerUsername{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    text-indent: 20px;
+    height: 5vh;
+    width: 30%;
+    position: relative;
+    left: -8vw;
+}
+
+.register-email{
+    margin-top: 3vh;
+}
+
+.registerEmail{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    text-indent: 20px;
+    height: 5vh;
+    width: 80%;
+    position: relative;
+}
+
+
+.registerPassword{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    text-indent: 20px;
+    height: 5vh;
+    width: 45%;
+    position: relative;
+    left: 5.5vw;
+    bottom: 14vh;
+}
+
+
+.registerSesso{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    text-indent: 20px;
+    height: 5vh;
+    width: 20%;
+    position: relative;
+    left: -10vw;
+    bottom: 2.7vh;
+    text-align: center;
+}
+
+.registerDate{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    text-indent: 20px;
+    height: 5vh;
+    width: 30%;
+    position: relative;
+    left: 8vw;
+    bottom: 8vh;
+}
+
+.registerRuolo{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    text-indent: 20px;
+    height: 5vh;
+    width: 25%;
+    position: relative;
+    left: -1.5vw;
+    bottom: 13vh;
+}
+
+
+.button-register2{
+    background-color: #00E92C;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 5vh;
+    left: -8vw;
+    bottom: 6vh;
+    position: relative;
+    transition: box-shadow 0.3s;
+    width: 20%;
+    cursor: pointer;
+}
+
+.button-register2:hover {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-login2{
+    background-color: #0097FF;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 5vh;
+    left: 8vw;
+    bottom: 17.5vh;
+    position: relative;
+    transition: box-shadow 0.3s;
+    width: 20%;
+    cursor: pointer;
+}
+
+.button-login2:hover {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.or-div2{
+    position: relative;
+    bottom: 6vh;
+    text-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}

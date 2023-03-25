@@ -1,0 +1,92 @@
+.btn{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: crimson;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    background-color: crimson;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+
+<div class="body">
+      <tr class="table-head">
+
+        <th>N.</th>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Date Absence</th>
+
+      </tr>
+
+      <?php
+      if ($total != 0) {
+        $k = 1;
+        while ($result = mysqli_fetch_assoc($data)) {
+          echo "
+              <tr class='table-body'>
+                <td>" . $k . "</td>
+                <td>" . $result['id_studente'] . "</td>
+                <td>" . $result['Nome'] . "</td>
+                <td>" . $result['Cognome'] . "</td>
+                <td>" . $result['data_assenza'] . "</td>
+                <td class='x'><a href='../azioni/delete.php?rn=$result[id_studente]' class='btn'>X</a></td>
+              </tr>
+
+            ";
+
+          $k++;
+        }
+      }
+      ?>
+
+
+    </div>
+
+
+
+    <form action="../db/logout.php" method="post">
+        <button>Log out</button>
+      </form>
+
+
+      .message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.message p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.message .btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.message .btn-container button {
+    background-color: #008000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.message .btn-container button:last-of-type {
+    background-color: #cc0000;
+}
