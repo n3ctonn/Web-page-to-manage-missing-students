@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f8f8;
+}
+
+body.dark{
+    background-color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+body.dark header{
+    border-bottom: 1px solid #777;
+}
+
+header .title h1 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #333;
+}
+
+body.dark header .title h1{
+    color: #fff;
+} 
+
+nav {
+    display: flex;
+}
+
+nav a.logout{
+    display: block;
+    padding: 10px;
+    color: #ff0000;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+body.dark nav a.logout{
+    color: #ff0000;
+}
+
+nav a.logout:hover{
+    color: #ffffff;
+    background-color: #ff0000;
+    border: 1px solid #000;
+
+} 
+
+body.dark nav a.logout:hover{
+    color: #000;
+    background-color: #ff0000;
+    border: 1px solid #000;
+} 
+
+main {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+body.dark main{
+    background-color: #444;
+    border: 1px solid 777;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.table-head {
+    background-color: #333;
+    color: #fff;
+}
+
+
+body.dark .table-head {
+    background-color: #fff;
+    color: #333;
+}
+
+.table-body td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.table-body td:first-child {
+    font-weight: 700;
+}
+
+
+body.dark .table-body td {
+    border-color: #ccc;
+    background-color: #444;
+    color: #fff;
+}
+
+.table-body td.x-col{
+    text-align: center;
+    color: crimson;
+}
+
+
+
+body.dark .table-body td.x-col {
+    color: crimson;
+}
+
+.table-foot td {
+    font-weight: 700;
+}
+
+.table-foot td:last-child {
+    text-align: right;
+}
+
+
+body.dark .table-foot td {
+    color: white;
+}
+
+.table-div {
+    overflow-x: auto;
+}

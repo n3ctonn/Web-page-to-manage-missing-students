@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f8f8;
+}
+
+body.dark{
+    background-color: #333;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.add-area {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .add-area {
+    background-color: #444;
+    color: #fff;
+}
+.add-area .text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.add-form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+body.dark .add-form {
+    background-color: #ccc;
+    border: 1px solid #777;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+input::focus::placeholder {
+    color: transparent;
+}
+
+
+body.dark input::placeholder {
+    color: #000;
+}
+
+body.dark input:focus::placeholder {
+    color: transparent;
+}
+
+
+
+
+.Add {
+    background-color: #8B0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+
+body.dark .Add {
+    background-color: #800000;
+    color: #ffffff;
+    border: 1px solid #fff;
+}
+
+.Add:hover {
+    background-color: #fff;
+    color: #8B0000;
+    border: 1px solid #8B0000;
+    transition: 0.3s ease;
+}
+
+body.dark .Add:hover {
+    background-color: #333;
+    color: #800000;
+    border: 1px solid #8B0000;
+}
+
+.Back {
+    background-color: #fff;
+    color: #8B0000;
+    border: 1px solid #8B0000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.buttonAdd {
+    text-align: center;
+}
+
+body.dark .Back {
+    background-color: #333;
+    color: #800000;
+    border: 1px solid #8B0000;
+}
+
+.Back:hover {
+    background-color: #8B0000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+body.dark .Back:hover {
+    background-color: #800000;
+    color: #fff;
+    border: 1px solid #fff;
+}
